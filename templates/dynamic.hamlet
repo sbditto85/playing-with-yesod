@@ -1,0 +1,7 @@
+<h1>I'm dynamic!
+$if null ts
+    <p>No dynamic path
+$else
+    <ul>
+        $forall t <- ts
+          <li>#{t}
