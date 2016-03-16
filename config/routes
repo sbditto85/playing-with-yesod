@@ -8,4 +8,6 @@
 
 /comments CommentR POST
 
+/budget BudgetR GET POST
+
 !/*[Text] LastR GET
